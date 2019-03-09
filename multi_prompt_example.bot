@@ -1,0 +1,18 @@
+{
+    "name": "multi_prompt_example",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "169cf6e0-40b3-11e9-806c-a5443f572843",
+            "name": "http://localhost:3978/api/messages"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "overrides": null,
+    "path": "/home/ayushi/Desktop/BotBuilder-Samples-master/samples/javascript_nodejs/multi_prompt_example/multi_prompt_example.bot"
+}
