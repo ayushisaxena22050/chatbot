@@ -117,7 +117,7 @@ class MultiTurnBot{
         return await step.endDialog();
     }
     async onTurn(turnContext) {
-        // See https://aka.ms/about-bot-activity-message to learn more about the message and other activity types.
+        
         if (turnContext.activity.type === ActivityTypes.Message) {
             // Create a dialog context object.
             const dc = await this.dialogs.createContext(turnContext);
