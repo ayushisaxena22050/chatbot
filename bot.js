@@ -28,7 +28,7 @@ class MultiTurnBot{
         this.dialogs.add(new NumberPrompt(AGE_PROMPT));
         this.dialogs.add(new DateTimePrompt(DATE_OF_BIRTH));
 
-        // Create a dialog that asks the user for their name.
+        // Create a dialog that asks the user for their name.jsdkjfhlsjhgj
         this.dialogs.add( new WaterfallDialog(WHO_ARE_YOU,[
             this.promptForName.bind(this),
             this.confirmAgePrompt.bind(this),
